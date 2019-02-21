@@ -13,6 +13,11 @@ The plugin's [published on Package Control](https://packagecontrol.io/packages/R
 - Go to Command Palette (`cmd-shift-p`) -> Package Control: Install Package.
 - Choose sublime-reason.
 
+## Configure Reason refmt
+
+Open settings and add your Reason executables path (most commonly: "/usr/local/lib/node_modules/bs-platform/lib/" if installed with npm) under the key `reason_paths`.
+Once that is set, you can automatically format your Reason file by entering the `Reason: Run refmt (format)` command (cmd + shift + p).
+
 ## Language Server Installation
 
 See https://github.com/jaredly/reason-language-server#sublime-text for language-server installation and configuration.

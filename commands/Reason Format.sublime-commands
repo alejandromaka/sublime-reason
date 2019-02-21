@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Reason: Run refmt (format)",
+        "command": "reason_format"
+    }
+]

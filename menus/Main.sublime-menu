@@ -1,0 +1,32 @@
+[
+    {
+        "id": "preferences",
+        "children":
+        [{
+            "id": "package-settings",
+            "children":
+            [
+                {
+                    "caption": "Reason",
+                    "children":
+                    [
+                        {
+                            "caption": "Settings – Default",
+                            "command": "open_file", "args":
+                            {
+                                "file": "${packages}/sublime-reason/Reason.sublime-settings"
+                            }
+                        },
+                        {
+                            "caption": "Settings – User",
+                            "command": "open_file", "args":
+                            {
+                                "file": "${packages}/User/Reason.sublime-settings"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }]
+    }
+]
