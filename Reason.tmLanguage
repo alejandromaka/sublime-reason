@@ -17,7 +17,39 @@
 	<array>
 		<dict>
 			<key>include</key>
-			<string>#core</string>
+			<string>#reason_comment_doc_block</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#reason_comment_block</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#reason_comment</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#reason_named_arg</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#reason_module</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#reason_lifetime</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#reason_self</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#reason_string</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#reason_raw_string</string>
 		</dict>
 	</array>
 	<key>repository</key>
@@ -594,6 +626,18 @@
 					<string>#jsx-tag-start</string>
 				</dict>
 			</array>
+		</dict>
+	</array>
+	<key>repository</key>
+	<dict>
+		<key>reason_comment</key>
+		<dict>
+			<key>begin</key>
+			<string>//</string>
+			<key>end</key>
+			<string>(?=^)</string>
+			<key>name</key>
+			<string>comment.source.reason</string>
 		</dict>
 		<key>reason_comment_block</key>
 		<dict>
