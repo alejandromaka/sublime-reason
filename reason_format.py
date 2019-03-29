@@ -32,7 +32,8 @@ class ReasonFormatCommand(sublime_plugin.TextCommand):
     output, errors = p.communicate()
 
     sel = sublime.Region(0, self.view.size())
-    self.view.replace(edit, sel, output.decode("utf-8"))
+    if output:
+        self.view.replace(edit, sel, output.decode("utf-8"))
 
     if settings.get('debug', False):
         print('(refmt) ' + str(output.strip()), '\nerrors: ' + str(errors.strip()))

@@ -1,6 +1,6 @@
 [
     {
-        "caption": "Reason: Run refmt (format)",
+        "caption": "Reason Format: Run refmt",
         "command": "reason_format"
     }
 ]
