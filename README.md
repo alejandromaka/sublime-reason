@@ -16,7 +16,7 @@ The plugin's [published on Package Control](https://packagecontrol.io/packages/R
 ## Configure Reason refmt
 
 Open settings and add your Reason executables path (most commonly: "/usr/local/lib/node_modules/bs-platform/lib/" if installed with npm) under the key `reason_paths`.
-Once that is set, you can automatically format your Reason file by entering the `Reason: Run refmt (format)` command (cmd + shift + p).
+Once that is set, you can automatically format your Reason file by entering the `Reason Format: Run refmt` command (cmd + shift + p).
 
 ## Language Server Installation
 

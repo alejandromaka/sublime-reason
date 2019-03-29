@@ -17,39 +17,7 @@
 	<array>
 		<dict>
 			<key>include</key>
-			<string>#reason_comment_doc_block</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>#reason_comment_block</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>#reason_comment</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>#reason_named_arg</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>#reason_module</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>#reason_lifetime</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>#reason_self</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>#reason_string</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>#reason_raw_string</string>
+			<string>#core</string>
 		</dict>
 	</array>
 	<key>repository</key>
@@ -75,6 +43,10 @@
 				<dict>
 					<key>include</key>
 					<string>#reason_comment_block</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#reason_comment</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -627,9 +599,6 @@
 				</dict>
 			</array>
 		</dict>
-	</array>
-	<key>repository</key>
-	<dict>
 		<key>reason_comment</key>
 		<dict>
 			<key>begin</key>
